@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    
+    --primarycolor:#2B1B17;
+    --primaryfont:"Plus Jakarta Sans";
+    --headingfont:"Playfair Display";
+    --secondrycolor:#845326;
+    --textcolor:#4F4442;
+    --headingcolor:#0E0402;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: var(--primaryfont);
+    background-color: #FFF8F3;
+}
+h1, h2 ,h3{
+   font-family: var(--headingfont);
+   color: var(--headingcolor);
+}
+
+p{
+    color: var(--textcolor);
+}
+
+    
+
+.container{
+    margin: auto;
+    width: 95%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.btn{
+    
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
