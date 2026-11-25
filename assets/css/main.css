@@ -102,6 +102,9 @@ span{
     gap: 8px;
     padding-bottom: 64px;
 }
+.customer-favorites .head h2{
+    font-size: 40px;
+}
 
 .customer-favorites .row{
     gap: 32px;
