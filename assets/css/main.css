@@ -101,6 +101,7 @@ span{
     align-items: center;
     gap: 8px;
     padding-bottom: 64px;
+    text-align: center;
 }
 .customer-favorites .head h2{
     font-size: 40px;
@@ -110,7 +111,7 @@ span{
     gap: 32px;
 }
 .customer-favorites .product{
-    flex: 1 0 300px;
+    width: calc((100% - 64px) /3);
     background-color: #fff;
     border-radius: 10px;
     border: 1px #D3C3C066 solid;
@@ -189,12 +190,32 @@ span{
     width: 100%;
     color: #0E0402;
     padding: 10px 0;
-    background-color: #F0E7DD;
+    background-color: #f0e7dd;
+    transition: all 0.3s;
     
+}
+.product-content .btn:hover{
+    background-color: #ecd7be;
+
 }
 button img{
     padding-left: 8px;
 }
+@media screen and (max-width:1040px) {
+.customer-favorites .product{
+    width: calc((100% - 32px) / 2);
+}    
+}
+@media screen and (max-width:600px) {
+.customer-favorites .product{
+    width:100%;
+    margin-bottom: 20px;
+}
+.container{  
+width: 85%;
+}    
+}
+
 
 
 
